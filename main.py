@@ -7,10 +7,11 @@ import time
 import os
 import threading
 
-bot_token = "6833615228:AAHt6ER7NKKoP3QJrXCkGkCh7sNf1TmL-cE"
-api_hash = '26125044'
-api_id ='cf785cec72f8c5c031032c3aabd687a5'
-ss ='BQGOovQAmKPcVx5EuYQd5TFdJQp2KqKg-DJknMCn5gWoai-3YvaTsC4Qc_JCpSQt9RcWZIhYmavWjiOehCeSu7beLxwElMJeR-pq2iezgVT_-WP_bT0IHONg2JXbqxMyW4e1a4RLfvlu9KZfAS1p-iaWBeN9ye4i7LIrZjYbaDTue_Lf9vqIwgCAQUmY0boD8jQkS7kq8igaQHrNscHWIP816z42Lok4Wwlq8oAA6YMd6_TpeLI3QRfQ-sNXyhbDwh6MvN_y_1NzZ3qnQf08RIzNIEyvc_eF-ZCrdIAcdUIWDH5yG_7Uhqgrst3AFIR-QAL0Nnv8QAmeDhiXI_MOGOpAKmeXmgAAAAGAQksuAA'
+bot_token = "6412874285:AAF8s3gjXxh4fR9f5XeRJSr7g9iLraI2z4A"
+
+api_hash = '9855447'
+api_id ='65cbbc4e1d67bfa8c2f1c59d915fd534'
+ss='BQCWYdcAlh2sy6FeAaXyWlggFZBkGrbFJ7q6ZfKNGKAbjS3fE1kq9563hmo1mjHD2yysOd2X0nIbI-lD5nkwHQXOyCjKAdtJXNsKaJMjXvuCwkJkm6gMq_xQB3KAwA4fjux6E4zD87OBwERcjJ_tTZySLpLi73cc4185x5inemry7VMsvKuPpFF5quwzHw2KWNMwSauWitzgxyvVrBB7chB5bhO4AWNvhVXBQXbi65Wwv7nNgNpbvG3Jk1TcaYjPrd0TpBn5pwryFXJT-rEQZ-ZWO4BjVeRi7ogaivLsWz7dZaEoZJvO252hzUxJnLv_qCtEDsJCmkNd8Qa_oES70GzZzO8SWQAAAAGalsW-AA'
 bot = Client("mybot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 acc = Client("myacc",api_id=api_id,api_hash=api_hash,session_string=ss)
 
