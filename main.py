@@ -7,7 +7,7 @@ import time
 import os
 import threading
 
-bot_token = "6412874285:AAF8s3gjXxh4fR9f5XeRJSr7g9iLraI2z4A"
+bot_token = "6259837674:AAHthX3Wpy-DadJUFDpzJGleLkvbT0kVJNc"
 
 api_id = '24172378'
 api_hash ='ed3d77c486f7021bf65aa74fc378cfe0'
