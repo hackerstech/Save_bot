@@ -79,8 +79,10 @@ def save(client: pyrogram.client.Client, message: pyrogram.types.messages_and_me
     
     # getting message
     elif "https://t.me/" in message.text:
+        datc=str(message.text).replace('/','-')
+        datz=datc.partition('-')[-1]
+        datas=datz.split("-")
 
-        datas = message.text.split("/")
         msgid = int(datas[-1])
 
         # private
